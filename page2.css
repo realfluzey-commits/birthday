@@ -34,15 +34,16 @@ img {
   color: white;
   transition: 0.3s;
   min-width: 120px;
-   -webkit-tap-highlight-color: transparent;
 }
 
 .open {
   background-color: #ff5c8d;
+   -webkit-tap-highlight-color: transparent;
 }
 
 .noty {
   background-color: #34cfc7;
+   -webkit-tap-highlight-color: transparent;
 }
 
 .btn:hover {
