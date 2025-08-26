@@ -25,17 +25,13 @@ body {
       cursor: pointer;
       transition: transform 0.2s;
       max-width: 90%;
+       -webkit-tap-highlight-color: transparent;
     }
 
     button:hover {
       transform: scale(1.1);
       background: #ff3d2e;
     }
-
-  button:focus-visible {
-    outline: 2px solid #ffb3c6; /* soft pink focus ring */
-    outline-offset: 4px;
-  }
 
 
     .letter {
