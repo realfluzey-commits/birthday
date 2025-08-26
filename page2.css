@@ -1,0 +1,90 @@
+body {
+  background-color: #fffefb;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  padding-top: 100px;
+  color: #333;
+  margin: 0;
+}
+
+img {
+  width: 180px;
+  margin-bottom: 20px;
+  max-width: 90%; /* prevents image overflow on small screens */
+}
+
+.message {
+  font-size: 1.3em;
+  margin: 0 15px 30px; /* adds side padding on smaller screens */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* buttons will wrap instead of shrinking */
+}
+
+.btn {
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  min-width: 120px;
+}
+
+.open {
+  background-color: #ff5c8d;
+}
+
+.noty {
+  background-color: #34cfc7;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* 🔹 Responsive styles */
+@media (max-width: 768px) {
+  body {
+    padding-top: 60px;
+  }
+
+  .message {
+    font-size: 1.1em;
+  }
+
+  .btn {
+    font-size: 0.9em;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 40px;
+  }
+
+  img {
+    width: 140px;
+  }
+
+  .message {
+    font-size: 1em;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 80%;
+    font-size: 1em;
+    padding: 12px;
+  }
+}
