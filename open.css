@@ -62,7 +62,7 @@ body {
     .decorations::before {
       content: "🎉🎂🎈🎁✨";
       position: absolute;
-      top: -7px;
+      top: -5px;
       left: 50%;
       transform: translateX(-50%);
       font-size: 24px;
