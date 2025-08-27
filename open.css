@@ -60,6 +60,7 @@ body {
     }
 
     .decorations::before {
+      content: "🎉🎂🎈🎁✨";
       position: absolute;
       top: -20px;
       left: 50%;
